@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestClassifier
 # ══════════════════════════════════════════════════════════════════
 st.set_page_config(
     page_title="Student Burnout Predictor",
-    page_icon="🧠",
+    
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -252,7 +252,7 @@ def tip(icon: str, text: str) -> str:
 # SIDEBAR
 # ══════════════════════════════════════════════════════════════════
 with st.sidebar:
-    st.markdown("## 🧠 Student Wellness")
+    st.markdown("##  Student Wellness")
     st.markdown("---")
 
     student_name = st.text_input("👤 Your name", placeholder="e.g. Ananya")
@@ -279,7 +279,7 @@ with st.sidebar:
 # ══════════════════════════════════════════════════════════════════
 st.markdown("""
 <h1 style='text-align:center; color:#8957E5; margin-bottom:4px;'>
-  🧠 Student Burnout & Wellness Predictor
+   Student Burnout & Wellness Predictor
 </h1>
 <p style='text-align:center; color:#8B949E; margin-bottom:1.5rem;'>
   AI-powered burnout detection · Sentiment analysis · Personalised insights
