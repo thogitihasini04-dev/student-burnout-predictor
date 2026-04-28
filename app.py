@@ -274,6 +274,12 @@ with st.sidebar:
     st.markdown("---")
     st.caption("AI-Based Student Wellness System · v1.0")
 
+
+# 🚨 BLOCK APP IF NAME NOT ENTERED
+if not student_name:
+    st.info("👋 Welcome! Please enter your name in the sidebar to start")
+    st.stop()
+
 # ══════════════════════════════════════════════════════════════════
 # HEADER
 # ══════════════════════════════════════════════════════════════════
