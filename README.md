@@ -156,13 +156,7 @@ The project auto-generates a sample dataset of 500 student records with:
 
 ---
 
-## 📝 How to Cite (for your report)
 
-This project, titled "AI-Powered Student Burnout and Wellness Prediction
-System Using Machine Learning and Sentiment Analysis", falls under the domain
-of Data Science and Artificial Intelligence. It uses a Random Forest Classifier
-for burnout risk prediction and TextBlob + VADER for NLP-based sentiment
-analysis, implemented using Python and Gradio.
 
----
+
 
