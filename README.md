@@ -135,16 +135,6 @@ Stress Index = clamp((Raw + 20) / 60 x 100,  min=0,  max=100)
 - More sleep + better mood + attendance = lower stress
 
 ---
-
-
-## 📊 Sample Dataset
-The project auto-generates a sample dataset of 500 student records with:
-- Random study hours, sleep, delays, attendance, mood
-- Calculated burnout labels (Low/Medium/High)
-- Used for EDA charts and model training
-
----
-
 ## 💡 Recommendations Logic
 
 | Risk Level | Key Recommendations |
