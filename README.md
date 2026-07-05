@@ -1,4 +1,4 @@
-# 🧠 AI-Based Student Burnout Prediction & Wellness System
+# AI-Based Student Burnout Prediction & Wellness System
 
 An intelligent, interactive web application that predicts student burnout risk using **Machine Learning (Random Forest)** and analyzes emotional state using **NLP (TextBlob + VADER)**. Built with **Python and Streamlit**, this system provides early detection of academic burnout along with personalized wellness insights and recommendations.
 
@@ -56,7 +56,7 @@ attendance, mood           and overwhelmed..."
   Burnout Risk              Emotional State
 Low / Medium / High      Positive/Neutral/Negative
        ↓                          ↓
-         [ Stress Index 0-100 ]
+         [ Stress Index]
                   ↓
      [ Personalized Recommendations ]
                   ↓
@@ -97,7 +97,7 @@ Low / Medium / High      Positive/Neutral/Negative
 
 ---
 
-## 🧠 Machine Learning & NLP Models
+## Machine Learning & NLP Models
 
 ### 🔷 Random Forest Classifier
 - Ensemble learning method (bagging)
